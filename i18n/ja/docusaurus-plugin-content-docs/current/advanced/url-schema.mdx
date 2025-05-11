@@ -1,21 +1,21 @@
 ---
-title: URLスキーマ
-description: URLスキーマに関するガイド。
+title: URL Schema
+description: A guide on url schema.
 ---
 
-# URLスキーマ
+# URL Schema
 
-以下は、SideStoreと連携するために使用できるさまざまなURLスキーマの一覧です。これらは非常に便利で、開発者がソーシャルメディアやウェブサイトにワンクリックリンクを配置するだけで、iOSがリンクを直接SideStoreで開き、指定された操作を実行してくれます。
+The following is the list of different URL Schemes that can be used to interact with SideStore. These are incredibly useful because they allow developers to simply put a one-click link on their social media or website, and iOS will open the link directly in SideStore, performing the action(s) specified.
 
-現在、URLスキーマで可能な操作はアプリやソースのインストールに限定されていますが、将来的には複数の入力に対応し、さまざまなタスクを実行できるように拡張される予定です。
+The current list of things you can do using URL Schemes is limited to installing apps and sources, but it will be expanded upon in the future to take multiple inputs and perform a variety of other tasks.
 
-## リモートホストされたアプリのインストール
+## Install a remotely hosted app
 
 ```
 sidestore://install?url=[download url]
 ```
 
-## AltSourceの追加
+## Add an AltSource
 
 ```
 sidestore://source?url=[source url]
